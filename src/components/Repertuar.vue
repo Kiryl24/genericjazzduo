@@ -6,7 +6,7 @@
       <img src="@/assets/max.jpg" alt="24 maja " class="event-img" />
       <div class="event-info">
         <h3>24 maja 2025 – Halo Kultura</h3>
-        <p>Koncert improwizacyjny Makymiliana Krefta oraz Pawła Osickiego na dwa zestawy perkusyjne w boksie należącym do studia 504. Wstep wolny.</p>
+        <p>Koncert improwizacyjny Makymiliana Krefta oraz Pawła Osickiego na dwa zestawy perkusyjne w boksie należącym do studia 504. Wstęp wolny.</p>
       </div>
     </div>
 
@@ -14,7 +14,7 @@
       <img src="@/assets/jekyll.png" alt="27 kwietnia" class="event-img" />
       <div class="event-info">
         <h3> 27 kwietnia 2025 – Halo Kultura</h3>
-        <p>Koncert kompozycji sonorycznej na dwa pianina preparowane autorstwa Generic Jazz Duo w klimatycznej pracowni muzycznej w boxie 504 w stwoarzyszeniu Halo Kultura. Wstep wolny.</p>
+        <p>Koncert kompozycji sonorycznej na dwa pianina preparowane autorstwa Generic Jazz Duo w klimatycznej pracowni muzycznej w boxie 504 w stwoarzyszeniu Halo Kultura. Wstęp wolny.</p>
       </div>
     </div>
   </section>
