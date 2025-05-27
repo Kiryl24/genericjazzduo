@@ -54,6 +54,7 @@ const setActivePlayer = (id) => {
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .photo {
