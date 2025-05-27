@@ -38,6 +38,11 @@
   margin: 0;
   font-size: 2rem;
   font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.logo-link:hover .logo {
+  transform: scale(1.2);
 }
 
 .nav-center {
@@ -61,7 +66,6 @@ nav a:hover {
 
 .router-link-exact-active {
   font-weight: bold;
-  text-decoration: underline;
 }
 
 @media (max-width: 768px) {

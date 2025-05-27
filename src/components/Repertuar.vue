@@ -1,6 +1,6 @@
 <template>
   <section class="repertuar page-container">
-    <h2>Repertuar</h2>
+    <h2></h2>
 
     <div class="event">
       <img src="@/assets/max.jpg" alt="24 maja " class="event-img" />
