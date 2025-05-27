@@ -14,7 +14,7 @@
       <div class="about-text">
         <h3>Jakub Kiryła</h3>
         <p>
-          Jakub to pianista oraz kompozytor, ale zamiast wąsa ma łapy jak grabie i palce jak jemioła. Jego
+          Jakub to pianista oraz kompozytor, ale zamiast wąsa ma łapy jak grabie i palce jak jemioła. Jego kompozycje można usłyszeć na
           <a
             href="https://open.spotify.com/artist/44iBVh9udZSXHI5xPFxK9W?si=O8emlBkGRnKf1ZLarvv1og"
             target="_blank"
@@ -23,7 +23,7 @@
             >
           Spotify
           </a>
-          i
+          oraz
           <a
               href="https://soundcloud.com/jakub-kiry-a?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
               target="_blank"
@@ -31,7 +31,7 @@
               style="color: #fcfadb; text-decoration: underline;"
 
               >
-            Soundcloud
+            Soundcloudzie.
           </a>
 
 
