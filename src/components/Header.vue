@@ -82,7 +82,7 @@ nav a:hover {
   .nav-center {
     width: 100%;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 0.5rem;
     flex-wrap: wrap;
     margin-top: 10px;
   }
