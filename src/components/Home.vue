@@ -9,11 +9,15 @@
     <AudioPlayer
         :src="max"
         title="Maks & Paweł - Fragment Koncertu"
+        :isActive="activePlayer === 1"
+        @play="setActivePlayer(1)"
     />
 
     <AudioPlayer
         :src="jekyll"
         title="Generic Jazz Duo - Fragment koncertu"
+        :isActive="activePlayer === 2"
+        @play="setActivePlayer(2)"
     />
 
     <p class="description">
@@ -23,9 +27,15 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import AudioPlayer from '@/components/AudioPlayer.vue'
 import max from '@/assets/max.mp3'
 import jekyll from '@/assets/jekyll.mp3'
+
+const activePlayer = ref(null)
+const setActivePlayer = (id) => {
+  activePlayer.value = id
+}
 </script>
 
 <style scoped>

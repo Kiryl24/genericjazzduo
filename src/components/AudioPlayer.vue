@@ -48,6 +48,7 @@ export default {
   },
   methods: {
     playAudio() {
+      this.$emit('play');
       if (!this.isPlaying) {
         this.audio.play().catch(error => {
           console.error("Audio playback failed:", error);
@@ -85,6 +86,20 @@ export default {
         this.pauseAudio();
       }
     },
+  },
+  watch: {
+    isActive(newVal) {
+      if (newVal) {
+        this.audio.play().then(() => {
+          this.isPlaying = true;
+        }).catch(error => {
+          console.error("Audio playback failed:", error);
+        });
+      } else {
+        this.audio.pause();
+        this.isPlaying = false;
+      }
+    }
   },
   beforeUnmount() {
     this.audio.removeEventListener('timeupdate', this.updateTime);
