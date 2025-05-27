@@ -8,7 +8,7 @@
 
     <AudioPlayer
         :src="max"
-        title="Maks & Paweł - Fragment Koncertu"
+        title="Maksymilian Kreft & Paweł Osicki - Fragment Koncertu"
         :isActive="activePlayer === 1"
         @play="setActivePlayer(1)"
     />
