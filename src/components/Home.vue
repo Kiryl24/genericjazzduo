@@ -4,7 +4,7 @@
       <img src="@/assets/photo.jpg" alt="Studio 504" class="photo" />
     </div>
 
-    <div class="description-box">opis opis opis</div>
+    <div class="description-box">Zapraszamy do odsłuchania fragmentów utworów pojawiających sie w studiu.</div>
 
     <AudioPlayer
         :src="max"
@@ -21,7 +21,7 @@
     />
 
     <p class="description">
-      Posłuchaj muzyki, która ma miejsce w studiu.
+      Opis opis opis.
     </p>
   </section>
 </template>
@@ -65,12 +65,12 @@ const setActivePlayer = (id) => {
 }
 
 .description-box {
-  max-width: 600px;
+  max-width: 1200px;
   width: 100%;
   padding: 1rem 1.5rem;
   margin-bottom: 2.5rem;   background-color: transparent;
   border-radius: 10px;
-  font-size: calc(1.5rem * 1.75);   color: #fcfadb;
+  font-size: calc(1.5rem * 1.25);   color: #fcfadb;
   font-style: italic;
   box-shadow: none;
 }

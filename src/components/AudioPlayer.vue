@@ -118,6 +118,8 @@ export default {
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
+  margin-bottom: 50px;
+
 }
 
 .audio-info {
