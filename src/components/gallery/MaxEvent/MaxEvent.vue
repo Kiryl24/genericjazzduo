@@ -1,13 +1,13 @@
 <template>
   <div class="event-gallery">
-    <!-- Sekcja tytułu wydarzenia -->
+
     <div class="event-header">
       <h3>{{ eventTitle }}</h3>
       <p class="event-date">{{ eventDate }}</p>
       <p class="event-desc">{{ eventDescription }}</p>
     </div>
 
-    <!-- Galeria zdjęć z animacją przewijania -->
+
     <div class="image-wrapper">
       <img
           :src="images[current]"
@@ -27,9 +27,9 @@
 import { ref } from 'vue'
 
 // Tytuł + data + opis wydarzenia
-const eventTitle = 'Wydarzenie: Koncert Maksymiliana Krefta oraz Pawła Osickiego.'
+const eventTitle = 'Koncert improwizacji duo perkusyjnego'
 const eventDate = '24 maja 2025'
-const eventDescription = 'Pokaz zdjęć z koncertu perkusyjnego.'
+const eventDescription = 'Pokaz zdjęć z koncertu Maksymiliana Krefta oraz Pawła Osickiego.'
 
 // Wczytywanie zdjęć automatycznie z folderu "max"
 const modules = import.meta.glob('@/assets/gallery/MaxEvent/*.{jpg,png}', {

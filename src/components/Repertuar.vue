@@ -6,7 +6,31 @@
       <img src="@/assets/max.jpg" alt="24 maja " class="event-img" />
       <div class="event-info">
         <h3>24 maja 2025 – Halo Kultura</h3>
-        <p>Koncert improwizacyjny Makymiliana Krefta oraz Pawła Osickiego na dwa zestawy perkusyjne w boksie należącym do studia 504. Wstęp wolny.</p>
+        <p>Koncert improwizacyjny
+
+          <a
+              href="https://www.instagram.com/maksymiliankreft?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              target="_blank"
+              rel="noopener"
+              style="color: #fcfadb; text-decoration: underline;"
+
+          >
+            Maksymiliana Krefta
+          </a>
+
+          oraz
+
+          <a
+              href="https://www.instagram.com/pawelosicki?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw=="
+              target="_blank"
+              rel="noopener"
+              style="color: #fcfadb; text-decoration: underline;"
+
+          >
+            Pawła Osickiego
+          </a>
+
+          na dwa zestawy perkusyjne w boksie należącym do studia 504. Wstęp wolny.</p>
       </div>
     </div>
 

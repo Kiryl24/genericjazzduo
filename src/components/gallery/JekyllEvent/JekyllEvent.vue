@@ -24,7 +24,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const eventTitle = 'Wydarzenie: Koncert Jekyll & Hyde'
+const eventTitle = 'Koncert Jekyll & Hyde'
 const eventDate = '27 kwietnia 2025'
 const eventDescription = 'Pokaz zdjęć z wydarzenia koncertu kompozycji Jazz Duo na dwa preparowane pianina'
 
