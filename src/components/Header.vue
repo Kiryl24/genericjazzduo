@@ -69,18 +69,27 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-  .nav-center {
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  nav a {
-    font-size: 18px;
+  .header {
+    padding: 10px 15px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .logo {
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .nav-center {
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  nav a {
+    font-size: 16px;
+    margin: 5px 10px;
   }
 }
 

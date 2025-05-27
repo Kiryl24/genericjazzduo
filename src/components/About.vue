@@ -67,6 +67,7 @@ import jakubImg from '@/assets/jakub.jpg'
 .about-text h3 {
   font-size: calc(1rem * 2.0);
   margin-bottom: 2rem;
+  margin-top: 3rem;
 }
 
 .about-text p {
