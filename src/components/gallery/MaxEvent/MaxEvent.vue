@@ -74,6 +74,10 @@ const prev = () => current.value = (current.value - 1 + images.value.length) % i
   width: 40px;
   cursor: pointer;
   margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+.arrow:hover {
+  transform: scale(1.2); /* powiększenie przy hoverze */
 }
 .controls {
   margin-top: 10px;
