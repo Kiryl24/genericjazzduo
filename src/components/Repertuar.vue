@@ -1,6 +1,13 @@
 <template>
   <section class="repertuar page-container">
     <h2></h2>
+    <div class="event">
+      <img src="@/assets/Gerardo.png" alt="20 lipca" class="event-img" />
+      <div class="event-info">
+        <h3> 20 lipca 2025 – Halo Kultura</h3>
+        <p>Koncert gitarowej muzyki Ameryki Łacińskiej, którą zagra dla Państwa na gitarze Gerardo Rivera. Zaproszonemu gościowi towarzyszyć będą muzycy z naszego Stowarzyszenia Generic Jazz Duo</p>
+      </div>
+    </div>
 
     <div class="event">
       <img src="@/assets/max.jpg" alt="24 maja " class="event-img" />
