@@ -5,7 +5,7 @@
       <img src="@/assets/Gerardo.png" alt="20 lipca" class="event-img" />
       <div class="event-info">
         <h3> 20 lipca 2025 – Halo Kultura</h3>
-        <p>Koncert gitarowej muzyki Ameryki Łacińskiej, którą zagra dla Państwa na gitarze Gerardo Rivera. Zaproszonemu gościowi towarzyszyć będą muzycy z naszego Stowarzyszenia Generic Jazz Duo</p>
+        <p>Koncert gitarowej muzyki Ameryki Łacińskiej, którą zagra dla Państwa na gitarze Gerardo Rivera. Zaproszonemu gościowi towarzyszyć będą muzycy z naszego Stowarzyszenia Generic Jazz Duo. Wstęp wolny</p>
       </div>
     </div>
 
